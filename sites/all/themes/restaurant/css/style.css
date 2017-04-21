@@ -2,3 +2,340 @@
  * This file will be overwritten when the Bootstrap Framework source files
  * are compiled using the Less CSS pre-processor.
  */
+@font-face {
+  font-family: 'AmpleSoft';
+  src: url('../fonts/AmpleSoft/AmpleSoft.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AmpleSoft Light';
+  src: url('../fonts/AmpleSoft/AmpleSoft Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'lachata';
+  src: url('../fonts/lachata/La-chata-normal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.wrapper-header{
+    background: url("../images/font-header.jpg") no-repeat;
+    /* padding-bottom: 50px; */
+}
+
+footer.footer.container{
+    background-image: url("../images/font-footer.jpg");
+}
+
+
+.bean-block-reseaux-sociaux .content {
+    display: block;
+    float: right;
+    margin-top: 52px;
+}
+
+
+button.btn.btn-primary {
+    background-color: #cdd5c9;
+    border-color: #cdd5c9;
+}
+
+
+/*
+.bean-block-reseaux-sociaux .field-name-field-facebook {
+    background-image: url(../images/facebook.png);
+    text-indent: -9000px;
+    display: inline-block;
+    margin-top: 50px;
+    padding-bottom: 1px;
+    width: 11px;
+    margin-right: 14px;
+}
+
+
+
+
+.field-name-field-youtube {
+    background-image: url(../images/youtube.png);
+    text-indent: -9000px;
+    display: inline-block;
+    margin-top: 50px;
+    padding-bottom: 1px;
+    width: 21px;
+    margin-right: 14px;
+}
+
+
+
+
+.bean-block-reseaux-sociaux .field-name-field-blog {
+    background-image: url(../images/blog.png);
+    text-indent: -9000px;
+    display: inline-block;
+    margin-top: 50px;
+    padding-bottom: 1px;
+    width: 20px;
+}
+*/
+
+.Slogan {
+    margin-bottom: 32px;
+    margin-top: 100px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 22px;
+    padding-left: 21px; 
+}
+
+.container-logo{
+    margin-top: 48px;
+    margin-left: 48px;
+    display: inline-block;
+}
+
+.text1{
+     color: #eceee8;
+    font-family: 'AmpleSoft';
+     font-size: 24.94px;
+}
+
+ .text2{
+    color: #eceee8;
+    font-family: 'AmpleSoft Light';
+ font-size: 18.32px;
+}
+/******************************************************/
+
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/*
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    z-index: 2;
+    margin-left: -1px;
+    padding-bottom: -14px;
+    margin-left: -39px;
+}
+*/
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    color: #507c47;
+    font-family: 'lachata';
+    font-size: 13.47px;
+    font-weight: bold;
+}
+
+.form-control .form-text{
+
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    width: 80%;
+}
+
+/***************************************************************************************/
+.field-name-field-facebook a {
+    display: inline-block;
+    padding-bottom: 1px;
+    width: 11px;
+    background: url(../images/facebook.png) no-repeat bottom;
+    height: 24px;
+    color: transparent;
+    text-indent: -50000px;
+}
+
+.bean-block-reseaux-sociaux .content .field {
+    display: inline-block;
+    /* width: 20px; */
+}
+
+.field-name-field-facebook a:hover {
+    color: transparent;
+}
+
+#block-search-form .form-text {
+    width: 85%;
+    }
+#block-search-form .form-text:focus{
+    width: 81%;
+    box-shadow: none;
+    border: none;
+}
+/********************************A verifier********************************/
+
+
+.field-name-field-blog a {
+  display: inline-block;
+  width: 28px;
+  background: url(../images/twitter.png) no-repeat bottom;
+  height: 24px;
+  /* margin: 0 13px; */
+  color: transparent;
+  text-indent: -50000px;
+}
+
+.bean-block-reseaux-sociaux .content .field {
+    display: inline-block;
+    /* width: 20px; */
+}
+
+.field-name-field-blog a:hover {
+    color: transparent;
+}
+
+/*-------------------------------*/
+.field-name-field-youtube a {
+    display: inline-block;
+    padding-bottom: 1px;
+    width: 21px;
+    background-image: url(../images/youtube.png);
+    height: 25px;
+    margin-right: 20px;
+    color: transparent;
+    text-indent: -5000px;
+}
+
+.bean-block-reseaux-sociaux .content .field {
+    display: inline-block;
+    /* width: 20px; */
+}
+
+.field-name-field-youtube a:hover {
+    color: transparent;
+}
+
+/*-------------------------------*/
+
+.field-name-field-instagram a {
+    display: inline-block;
+    width: 23px;
+    background-image: url(../images/instagram.png);
+    height: 24px;
+    margin: 0;
+    /* color: transparent; */
+    text-indent: -5000px;
+}
+
+.bean-block-reseaux-sociaux .content .field {
+    display: inline-block;
+    width: 40px;
+    px; */
+    text-align: center;
+    /* text-align: center; */
+}
+
+.bean-block-reseaux-sociaux .field.field-name-field-facebook{
+  width: 24px;
+}
+
+.field-name-field-instagram a:hover {
+    color: transparent;
+}
+
+
+
+
+
+
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    z-index: 2;
+    /*    margin-left: -1px;*/
+    color: #507c47;
+    border-radius: 0;
+}
+
+/*******************************************************************************************/
+#block-search-form .form-text {
+    display: inline-block;
+    width: 81%;
+    float: right;
+    margin-right: 0px;
+    background-color: #eceee8;
+    color: #617e5a;
+    border-radius: 0;
+}
+
+#block-search-form .input-group {
+    width: 192px;
+    float: right;
+}
+
+#block-search-form .input-group-btn {
+    float: left;
+}
+
+.content .field .field-label {
+    color: transparent;
+}
+
+#block-bean-social-links, #block-search-form {
+    padding-right: 33px;
+}
+
+#block-search-form {
+    padding-bottom: 33px;
+}
+
+/*****************************************************************************************/
+
+
+
+
+/*************************Media querries********************************************/
+
+@media only screen and (max-width : 1200px) {
+
+  .Slogan {display: inline-block;
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+            }
+
+.bean-block-reseaux-sociaux .content {
+    float: left;
+    margin-left: 65px;
+}
+
+
+#block-search-form .input-group {
+    width: 192px;
+    float: left;
+}
+
+}
+
+@media only screen and (max-width : 960px) {
+
+
+    
+}
+
+@media only screen and (max-width : 786px) {
+
+            
+    
+}
+
+
+@media only screen and (max-width : 480px) {
+
+
+    
+}
