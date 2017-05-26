@@ -13,6 +13,7 @@ regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
+regions[top_content]        = 'top_content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
@@ -27,6 +28,7 @@ regions[page_bottom]    = 'Page bottom'
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/bootstrap/css/bootstrap.css 
 stylesheets[all][] = css/default.css
+stylesheets[all][] = css/slick.css
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
@@ -44,6 +46,7 @@ scripts[] = 'bootstrap/js/scrollspy.js'
 scripts[] = 'bootstrap/js/tab.js'
 scripts[] = 'bootstrap/js/transition.js'
 scripts[] = 'js/script.js'
+scripts[] = 'js/slick.min.js'
 
 ; Disable the CDN provider so compiled source files can be used.
 settings[bootstrap_cdn] = ''

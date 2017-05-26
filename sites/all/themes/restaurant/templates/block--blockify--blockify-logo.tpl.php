@@ -57,7 +57,7 @@
   </div> 
   <div class="Slogan" >
   	<span class="text1">BON, BIO ET NATUREL</span> <br>
-  	<span class="text2">1er RESTAURANT BIO AU MAOC</span>
+  	<span class="text2">1er Fast Food Bio au Maroc</span>
   </div>
   </div>
 </section>
