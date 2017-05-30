@@ -1194,7 +1194,8 @@ ul.tabs--primary.nav.nav-tabs {
 
 }
 
-.view.view-videotheque.view-id-videotheque{margin-top: 0px;}
+.view.view-videotheque.view-id-videotheque{margin-top: 0px;
+margin-left: 35px !important;}
 
 
 }
@@ -1281,6 +1282,9 @@ div#views_slideshow_controls_text_guallerieview-block{
     margin-top: 117px;
     max-width: 304px;
 }
+
+
+section#block-views-videotheque-block{ margin-right: 107px;}
 
 }
 
@@ -1430,8 +1434,7 @@ span#views_slideshow_controls_text_next_guallerieview-block a {
 @media only screen and (max-width: 480px){
 
 .view.view-videotheque.view-id-videotheque {
-    margin-right: 35px;
-    margin-left: 35px;
+margin-left: 50px;
 }
 
 }
