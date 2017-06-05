@@ -31,6 +31,19 @@
     font-style: normal;
 }
 
+/*******************Block RS - Geolocalisation **************************/
+
+
+.field.field-name-field-geolocalisation- a {
+    display: inline-block;
+    padding-bottom: 1px;
+    width: 36px;
+    background: url(../images/geolocalisation.png) no-repeat bottom;
+    height: 24px;
+    color: transparent;
+    text-indent: -50000px;
+}
+
 
 
 a.carousel-prev, a.carousel-next {
@@ -846,7 +859,7 @@ form#contact-entityform-edit-form {
     }
 
     .wrapper-header {
-        background: url(../images/font-header.jpg) no-repeat;
+        background: url(../images/header.jpg) no-repeat;
         padding-bottom: 0px;
     }
 
@@ -940,7 +953,7 @@ form#contact-entityform-edit-form {
     }
 
     .wrapper-header {
-        background: url(../images/font-header.jpg) no-repeat center;
+        background: url(../images/header.jpg) no-repeat center;
         background-size: 452%;
         padding-bottom:0px;
     }
