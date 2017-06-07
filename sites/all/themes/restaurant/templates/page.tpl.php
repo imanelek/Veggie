@@ -143,7 +143,7 @@ $base_url = $GLOBALS['base_url'];
 <?php if (!empty($page['footer'])): ?>
   <footer class="footer <?php print $container_class; ?>">
   <div class="logo-footer">
-    <a href="<?php echo $base_url;?>"><img src="<?php echo $base_url;?>/sites/all/themes/restaurant/images/logo_footer.png"> </a>
+    <a href="<?php echo $base_url;?>"><img src="<?php echo $base_url;?>/sites/all/themes/restaurant/images/logo_footer.png" alt="Image footer"/> </a>
   </div>
     <?php print render($page['footer']); ?>
     <div class="copy-right">
