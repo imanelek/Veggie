@@ -57,17 +57,43 @@
 
 h2.block-title {
     font-family: 'AmpleSoft';
-    font-size: 7.15pt;
+    font-size: 29.77px;
     text-transform: uppercase;
 }
 
-.views-field.views-field-title{
-font-family: 'AmpleSoft';
-    font-size: 7.15pt;
+article#node-41 div p span {
+    font-family: 'AmpleSoft';
+    font-size: 29.77px;
     text-transform: uppercase;
-
 }
 
+
+.site-map-message p {
+    font-size: 29.77px;
+    text-transform: uppercase;
+    font-family: 'AmpleSoft';
+}
+
+
+
+.site-map-menus {
+    font-size: 11.23pt;
+    text-transform: uppercase;
+}
+
+.field.field-name-field-txt1.field-type-text-long div p {
+    font-family: 'CenturyGothicRegular';
+    font-size: 16.67px;
+    line-height: 16.6px;
+}
+
+
+
+.entity.entity-bean.bean-a-propos div p span {
+    font-family: 'CenturyGothicRegular';
+    font-size: 16.67px;
+    line-height: 16.6px !important;
+}
 /*******************Block RS - Geolocalisation **************************/
 
 
@@ -246,6 +272,8 @@ h2.block-title {
     text-align: center;
     color: #3d6d67;
     font-family: 'AmpleSoft';
+    font-size: 29.77px;
+    text-transform: uppercase;
     margin-bottom: 0px;
 }
 
@@ -1244,7 +1272,7 @@ div#views_slideshow_cycle_main_guallerieview-block{
 .views-field.views-field-title a{
     font-family: 'AmpleSoft';
     text-transform: uppercase;
-    font-size: 27px;
+    font-size: 29.77px;
     color: #3d6d67;
     margin-top: 88px;
     text-decoration:none;
