@@ -4,21 +4,40 @@
  */
 @font-face {
     font-family: 'CenturyGothicRegular';
-    src: url('../fonts/CenturyGothicRegular.ttf') format('truetype');
+    src : url('../fonts/CenturyGothicRegular.eot'),
+         url('../fonts/CenturyGothicRegular?#iefix') format('embedded-opentype'),
+      url('../fonts/CenturyGothicRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CenturyGothicBold';
+src : url('../fonts/CenturyGothic-Bold.eot'),
+         url('../fonts/CenturyGothic-Bold?#iefix') format('embedded-opentype'),
+    url('../fonts/CenturyGothic-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AmpleSoft';
-    src: url('../fonts/AmpleSoft/AmpleSoft.otf') format('truetype');
+    src : url('../fonts/AmpleSoft/AmpleSoft.eot'),
+         url('../fonts/AmpleSoft/AmpleSoft?#iefix') format('embedded-opentype'),
+        url('../fonts/AmpleSoft/AmpleSoft.otf') format('opentype'),
+         url('../fonts/AmpleSoft/AmpleSoft.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} 
+
+
 
 @font-face {
     font-family: 'AmpleSoft Light';
-    src: url('../fonts/AmpleSoft/AmpleSoft Light.otf') format('truetype');
+    src : url('../fonts/AmpleSoft/AmpleSoftLight.eot'),
+         url('../fonts/AmpleSoft/AmpleSoftLight?#iefix') format('embedded-opentype'),
+     url('../fonts/AmpleSoft/AmpleSoftLight.otf') format('opentype');
+
     font-weight: normal;
     font-style: normal;
 }
@@ -26,7 +45,9 @@
 
 @font-face {
     font-family: 'lachata';
-    src: url('../fonts/lachata/La-chata-normal.ttf') format('truetype');
+src : url('../fonts/lachata/La-chata-normal.eot'),
+         url('../fonts/lachata/La-chata-normal?#iefix') format('embedded-opentype'),
+    url('../fonts/lachata/La-chata-normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -62,8 +83,9 @@ h2.block-title {
 }
 
 article#node-41 div p span {
-    font-family: 'AmpleSoft';
+    font-family: 'CenturyGothicRegular';
     font-size: 29.77px;
+    line-height: 5.6px;
     text-transform: uppercase;
 }
 
@@ -83,7 +105,7 @@ article#node-41 div p span {
 
 .field.field-name-field-txt1.field-type-text-long div p {
     font-family: 'CenturyGothicRegular';
-    font-size: 16.67px;
+    font-size: 12.67px;
     line-height: 16.6px;
 }
 
@@ -91,8 +113,48 @@ article#node-41 div p span {
 
 .entity.entity-bean.bean-a-propos div p span {
     font-family: 'CenturyGothicRegular';
-    font-size: 16.67px;
-    line-height: 16.6px !important;
+    font-size: 12.67px;
+    line-height: 5.6px !important;
+    text-transform: uppercase;
+}
+
+
+.views-field.views-field-body div p{
+    font-size: 13px;
+    font-family: 'CenturyGothicRegular';
+    line-height: 16.6px;
+    color: #325f5c;
+}
+
+
+strong {
+    font-family: 'CenturyGothicBold';
+}
+
+
+b, strong {
+    font-family: 'CenturyGothicBold';
+    text-transform: uppercase;
+}
+
+strong u span {
+    font-family: 'CenturyGothicBold';
+}
+
+.field.field-name-body div p strong u span {
+    color: #325F5C;
+    font-family: 'CenturyGothicBold';
+    text-transform: uppercase;
+}
+
+.field.field-name-body div h2 {
+    font-family: 'Amplesoft';
+    color: #325f5c;
+}
+
+
+.field.field-name-body.field-type-text-with-summary div h2 span {
+    font-size: 30px !important;
 }
 /*******************Block RS - Geolocalisation **************************/
 
@@ -191,6 +253,7 @@ margin-right: 6px;
     width: 100%;
     text-align: center;
     font-size: 13px;
+    line-height: 5.6px;
     font-family: 'CenturyGothicRegular';
     color: #325f5c;
 }
@@ -1094,14 +1157,15 @@ form#contact-entityform-edit-form {
 
 body{
 
-    font-family: "AmpleSoft", "CenturyGothicRegular";
+    font-family:"CenturyGothicRegular" , "AmpleSoft" !important;
     color: #325f5c;;
-    font-size: 14px;
+    font-size: 13px;
     color: #333;
     background: transparent url(../images/bg-img.jpg) no-repeat scroll center top;
     padding-top: 153px;
     padding-bottom: 170px;
     padding-left: 7px;
+    line-height: 5.6px;
 }
 
 /*
