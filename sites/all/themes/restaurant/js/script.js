@@ -1,7 +1,7 @@
 (function ($, Drupal, window, document, undefined) {
 
 $(document).ready(function(){
-
+$('.container-logo a').removeAttr('title','');
 // To make slideshow responsive,
     $(window).resize(function(){
       $('.views_slideshow_cycle_main').each(function(){
@@ -31,12 +31,18 @@ $(document).ready(function(){
     });
 });
     $(document).ready(function(){
+       
     $(".ingredients").click(function() {
         $('html, body').animate({
             scrollTop: $(this).parent().parent().next().offset().top
         }, 500);
       return false;
     });
+    });
+
+    $(document).ready(function(){
+
+    
     });
 
 })(jQuery, Drupal, this, this.document);
