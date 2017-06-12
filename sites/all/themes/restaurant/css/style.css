@@ -60,15 +60,14 @@ src : url('../fonts/lachata/La-chata-normal.eot'),
     border-radius: 10px;
     font-size: 17.5px;
     font-family: 'AmpleSoft';
-    margin-left: 25px;
+    margin-left: 121px;
     padding-left: 32px;
     padding-bottom: 0px;
-    padding-right: 108px;
+    padding-right: 15px;
     background: url(../images/shooping.png) no-repeat left;
     background-position: 12px;
     position: absolute;
     margin-top: 8px;
-}
 }
 
 
@@ -1526,12 +1525,10 @@ ul.tabs--primary.nav.nav-tabs {
 
 @media only screen and (max-width : 960px) {
 
-
-
 .views-field.views-field-field-commander-en-ligne a.asec {
     font-size: 10.5px;
-    margin-left: 10px;
-    padding-right: 101px;
+    margin-left: 106px;
+    padding-right: 10px;
     margin-top: 17px;
 }
 
@@ -1585,8 +1582,8 @@ ul.tabs--primary.nav.nav-tabs {
 
 .views-field.views-field-field-commander-en-ligne a.asec {
     font-size: 9.5px;
-    margin-left: 8px;
-    padding-right: 76px;
+    margin-left: 77px;
+    padding-right: 10px;
     margin-top: 19px;
 }
 
@@ -1637,9 +1634,9 @@ ul.tabs--primary.nav.nav-tabs {
 @media only screen and (max-width : 400px) {
 
 .views-field.views-field-field-commander-en-ligne a.asec {
-     font-size: 8.5px !important;
-    margin-left: 4px;
-    padding-right: 36px;
+    font-size: 8.5px !important;
+    margin-left: 28px;
+    padding-right: 9px;
     margin-top: 22px;
 }
 
