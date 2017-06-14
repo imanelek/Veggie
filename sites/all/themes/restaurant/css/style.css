@@ -546,7 +546,7 @@ h2.block-title {
 }
 
 
-@media only screen and (max-width : 768px) {
+ {
     section#block-views-menupageview-block {
         width: 325px;
 
@@ -557,6 +557,12 @@ h2.block-title {
 
 section#block-views-videotheque-block {
     margin-left: 11px;
+}
+
+section.col-sm-12 {
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 }
 
@@ -925,7 +931,15 @@ form#contact-entityform-edit-form {
         display: inline-block;
         width: 310px;
     }
+    section.col-sm-12 {
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+body {
+    padding-left: 0px !important;
 
+}
 }
 
 @media only screen and (max-width : 960px) {
@@ -958,6 +972,15 @@ form#contact-entityform-edit-form {
         margin: 0 auto;
     }
 
+    section.col-sm-12 {
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+body {
+    padding-left: 0px !important;
+
+}
 }
 
 @media only screen and (max-width : 768px) {
@@ -1047,7 +1070,15 @@ form#contact-entityform-edit-form {
     .wrapper-slider {
         height: initial;
     }
+  section.col-sm-12 {
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+body {
+    padding-left: 0px !important;
 
+}
 }
 
 
@@ -1143,6 +1174,20 @@ form#contact-entityform-edit-form {
     div#site-map {
         padding-top: 25px;
     }
+
+    section.col-sm-12 {
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+body {
+    padding-left: 0px !important;
+
+}
+
+h6 strong span {
+    font-size: 12px;
+}
 }
 
 
@@ -1319,6 +1364,7 @@ div#views_slideshow_cycle_main_menupageview-block{
 }
 
 section#block-views-videotheque-block{
+    margin-left: 15px;
     /*++++++++++  min-height: 734px; ++++++++++++++
       background: url(../images/bg.jpg);*/
 }
@@ -1546,9 +1592,13 @@ ul.tabs--primary.nav.nav-tabs {
 
     }
 
+.views-field.views-field-body div p {
+    font-size: 10px;}
 
+b, strong {
+    font-size: 10px !important;
 }
-
+}
 @media only screen and (max-width : 960px) {
 
 .views-field.views-field-field-commander-en-ligne a.asec {
@@ -2022,5 +2072,18 @@ div#views_slideshow_controls_text_menupageview-block {
 }
 #block-menu-block-1 li.menu_contact.active {
     left: -4px;
+}
+}
+
+/*---------------------Iphone 5--------------------*/
+
+@media only screen and (max-width: 320px){
+.controls-style .views_slideshow_controls_text span a {
+    margin-left: 43px;
+    margin-right: 8px;
+}
+
+section#block-views-videotheque-block {
+    margin-left: 2px;
 }
 }
